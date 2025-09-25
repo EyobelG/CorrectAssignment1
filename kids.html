@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Featured</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: lightgray;
+      margin: 0;
+      padding: 1rem;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .clothing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .product-card {
+      background:#FFBE0A;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+
+
+    .product-image {
+      width: 200px;    
+      height: auto;   
+      border-radius: 8px;
+    }
+
+    .product-title {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    }
+
+    .product-price {
+      color: #500082;
+      font-weight: bold;
+    }
+
+    .product-shipping {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .stars {
+      color: #B1008E;
+    }
+    .section-title {
+      color: purple;
+      text-align: center;
+      margin-bottom: 2rem;
+      position: sticky;  
+      top: 0;             
+      background: lightgray;
+      padding: 0.5rem;
+      z-index: 10;    
+    }
+  </style>
+</head>
+<body>
+  <h1  class="section-title">Kid's Clothing and Accessories</h1>
+  
+  <div class="clothing-grid">
+    
+    <!-- Product 1 -->
+    <div class="product-card">
+      <img src="kidspat.jpg" alt="Kids" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Kids' Retro-X Fleece Jacket</h3>
+        <div class="product-price">$139</div>
+        <div class="product-shipping">Free shipping</div>
+        <div class="product-rating">
+          <span class="stars">★★★★★</span>
+          <span>(5 sold)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="llbean.jpg" alt="LL" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">kids' LLBean sweatshirt</h3>
+        <div class="product-price">$30.50</div>
+        <div class="product-shipping">$1.99 shipping</div>
+        <div class="product-rating">
+          <span class="stars">★★★★★</span>
+          <span>(2 sold)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <img src="kidshort.jpg" alt="shorts" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Kids' Baggies™ Shorts 5" - Lined</h3>
+        <div class="product-price">$26</div>
+        <div class="product-shipping">Free shipping</div>
+        <div class="product-rating">
+          <span class="stars">★★★★☆</span>
+          <span>(1 sold)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="plants.jpg" alt="plantshirt" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Patagonia Infants Graphic T-Shirt</h3>
+        <div class="product-price">$45.00</div>
+        <div class="product-shipping">$1.99 shipping</div>
+        <div class="product-rating">
+          <span class="stars">★★★★★</span>
+          <span>(1 sold)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card">
+      <img src="doghat.jpg" alt="beanie" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Kids' L.L.Bean x Peanuts Pom Hat</h3>
+        <div class="product-price">$30.00</div>
+        <div class="product-shipping">$2.00 shipping</div>
+        <div class="product-rating">
+          <span class="stars">★★★★★</span>
+          <span>(5 sold)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+      <img src="owl.jpg" alt="owl" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Eden Borg Zip-Through Jacket</h3>
+        <div class="product-price">$670</div>
+        <div class="product-shipping">Free shipping</div>
+        <div class="product-rating">
+          <span class="stars">★★★★★</span>
+          <span>(5 sold)</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Featured</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: lightgray;
+      margin: 0;
+      padding: 1rem;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .clothing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .product-card {
+      background:#FFBE0A;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+
+
+    .product-image {
+      width: 200px;    
+      height: auto;   
+      border-radius: 8px;
+    }
+
+    .product-title {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    }
+
+    .product-price {
+      color: #500082;
+      font-weight: bold;
+    }
+
+    .product-shipping {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .stars {
+      color: #B1008E;
+    }
+    .section-title {
+      color: purple;
+      text-align: center;
+      margin-bottom: 2rem;
+      position: sticky;  
+      top: 0;             
+      background: lightgray;
+      padding: 0.5rem;
+      z-index: 10;    
+    }
+
+  </style>
+</head>
+<body>
+  <h1  class="section-title">Men's Clothing</h1>
+  
+  <div class="clothing-grid">
+    
+    <!-- Product 1 -->
+    <div class="product-card">
+      <img src="waves.jpg" alt="Waves" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Vintage Outdoor Jacket - Men's Large</h3>
+        <div class="product-price">$299.99</div>
+        <div class="product-shipping">Free shipping</div>
+        <div class="product-rating">
+          <span class="stars">★★★★☆</span>
+          <span>(1 sold)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="zenturtle.jpg" alt="Zen" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Zen Turtle Synchilla - Size M</h3>
+        <div class="product-price">$499</div>
+        <div class="product-shipping">$4.99 shipping</div>
+        <div class="product-rating">
+          <span class="stars">★★★★★</span>
+          <span>(3 sold)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <img src="wow.jpg" alt="Cool" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Patagonia Crocodile Bluegrass</h3>
+        <div class="product-price">$400</div>
+        <div class="product-shipping">Free shipping</div>
+        <div class="product-rating">
+          <span class="stars">★★★★☆</span>
+          <span>(1 sold)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="pataloha.jpg" alt="Pataloha" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Men Pataloha Shirt (Vintage)</h3>
+        <div class="product-price">$78.00</div>
+        <div class="product-shipping">$6.99 shipping</div>
+        <div class="product-rating">
+          <span class="stars">★★★★★</span>
+          <span>(10 sold)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card">
+      <img src="patty.jpg" alt="patty" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Men Pataloha XL</h3>
+        <div class="product-price">$59.99</div>
+        <div class="product-shipping">Free shipping</div>
+        <div class="product-rating">
+          <span class="stars">★★★★☆</span>
+          <span>(3 sold)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+      <img src="arc.jpg" alt="Arc" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">arcteryx men raincoat</h3>
+        <div class="product-price">$250.00</div>
+        <div class="product-shipping">Free shipping</div>
+        <div class="product-rating">
+          <span class="stars">★★★★★</span>
+          <span>(7 sold)</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
