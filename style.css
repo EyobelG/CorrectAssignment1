@@ -77,13 +77,13 @@ ul#nav {
   gap: 0;
 }
 
+
 ul#nav li {
   display: inline-block;
   width: 120px;
-  padding: 10px 0;
+  padding: 15px 10px;
   transition: background-color 0.3s ease;
 }
-
 
 ul#nav li:hover {
   background-color: beige;
