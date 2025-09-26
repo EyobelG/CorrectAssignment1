@@ -86,8 +86,9 @@ ul#nav li {
 }
 
 ul#nav li:hover {
-  background-color: beige;
+  background-color: darkorange;
 }
+
 
 ul#nav li a {
   color: #5c006e;
